@@ -8,17 +8,19 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Button = props => {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("button", {
-    className: "dribbble-button",
+    className: "button-primary",
     style: {
-      backgroundColor: "transparent",
-      color: "lime",
+      margin: "0 0 1rem 0",
+      backgroundColor: "lime",
+      color: "black",
       fontFamily: "Sans-serif",
-      fontSize: "2rem",
-      fontWeight: "bold",
+      fontSize: "1rem",
       padding: "8px 16px",
-      border: "5px lime solid",
-      borderRadius: "8px"
-    }
+      border: "1px lime solid",
+      borderRadius: "8px",
+      textDecoration: "none"
+    },
+    href: "#"
   }, props.label));
 };
 var _default = Button;

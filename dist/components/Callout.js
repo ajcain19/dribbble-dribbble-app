@@ -13,26 +13,29 @@ const Callout = props => {
     className: "callout-container",
     style: {
       // Callout Container
-      padding: "24px",
-      margin: "24px",
-      width: "75%",
-      border: "3px solid lime",
-      backgroundColor: "black",
-      color: "white"
+      padding: "16px",
+      margin: "24px 0px",
+      border: "1px solid grey",
+      minWidth: "50%",
+      backgroundColor: "white",
+      color: "#000",
+      borderRadius: "8px",
+      display: "flex",
+      flexDirection: "column",
+      textAlign: "left"
     }
-  }, /*#__PURE__*/_react.default.createElement("h1", {
+  }, /*#__PURE__*/_react.default.createElement("h2", {
     style: {
-      margin: "0px",
-      fontFamily: "cursive",
-      fontSize: "3rem"
+      margin: "0px"
     }
-  }, props.heading), /*#__PURE__*/_react.default.createElement("p", null, props.blurb), /*#__PURE__*/_react.default.createElement("a", {
+  }, props.heading), /*#__PURE__*/_react.default.createElement("p", {
+    style: {
+      color: "#333"
+    }
+  }, props.blurb), /*#__PURE__*/_react.default.createElement("a", {
     href: "#",
     style: {
-      color: "lime",
-      fontFamily: "cursive",
-      fontWeight: "bold",
-      fontSize: "2rem"
+      color: "blue"
     }
   }, props.linkDescription)));
 };

@@ -33,8 +33,8 @@ const Hero = props => {
       transform: "translate(-50%, -50%)",
       color: "white"
     }
-  }, /*#__PURE__*/_react.default.createElement("h1", null, props.heading), /*#__PURE__*/_react.default.createElement("h2", null, props.blurb), /*#__PURE__*/_react.default.createElement(_Button.default, {
-    label: "Hire Me"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, props.heading), /*#__PURE__*/_react.default.createElement("p", null, props.blurb), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    label: "Primary Button"
   }))));
 };
 var _default = Hero;
