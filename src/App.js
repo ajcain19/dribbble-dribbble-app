@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Dribbble App - Design System</h1>
+        <h1>Dribbble-App | App #1 | Design System by Anthony Cain</h1>
+        <h2>React JS</h2>
       </header>
       <main className="App-main">
         <div className="container">
